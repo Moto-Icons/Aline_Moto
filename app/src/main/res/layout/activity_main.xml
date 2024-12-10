@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundBg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="5dp"
+            android:backgroundTint="@color/cardBg"
+            app:strokeWidth="0dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="24dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="40dp"
+                android:fontFamily="@font/inter_semibold"
+                android:text="@string/app_name"
+                android:textColor="@color/CardtextColor"
+                android:textSize="30sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="5dp"
+            android:backgroundTint="@color/cardBg"
+            app:strokeWidth="0dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="24dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/Porter"
+                    android:textColor="@color/CardtextColor"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/TgChannelLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/telegramChannelLink"
+                    android:textColor="@color/CardtextColor"
+                    android:textColorLink="@color/buttonBg"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/BuyMeACoffee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/BuyMeACoffee"
+                    android:textColor="@color/CardtextColor"
+                    android:textColorLink="@color/buttonBg"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/UpiLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/inter"
+                    android:text="@string/UPILink"
+                    android:textColor="@color/CardtextColor"
+                    android:textColorLink="@color/buttonBg"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/apply_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/buttonBg"
+            android:text="@string/apply"
+            android:textColor="@color/ButtontextColor" />
+    </LinearLayout>
+
+</ScrollView>

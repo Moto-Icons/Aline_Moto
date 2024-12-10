@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/pearson_fuels_e85_flex_fuel_finder" /> 
+    <foreground android:drawable="@drawable/pearson_fuels_e85_flex_fuel_finder" /> 
+</adaptive-icon>

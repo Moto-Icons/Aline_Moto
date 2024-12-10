@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/microsoft_exfat_ntfs_for_usb_by_paragon_software" /> 
+    <foreground android:drawable="@drawable/microsoft_exfat_ntfs_for_usb_by_paragon_software" /> 
+</adaptive-icon>

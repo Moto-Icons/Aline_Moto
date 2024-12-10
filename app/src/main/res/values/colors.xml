@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nothingb">#fff3eff4</color>
+    <color name="ff1f2f3">#ff1b1b1f</color>
+    <color name="ic_launcher_background">#ff141414</color>
+    <color name="buttonBg">#ff1b1b1f</color>
+    <color name="backgroundBg">#fff3eff4</color>
+    <color name="ButtontextColor">#fff3eff4</color>
+    <color name="cardBg">#ffffffff</color>
+    <color name="CardtextColor">#ff1b1b1f</color>
+</resources>

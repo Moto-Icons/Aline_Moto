@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/tutto_mercato_web" /> 
+    <foreground android:drawable="@drawable/tutto_mercato_web" /> 
+</adaptive-icon>
